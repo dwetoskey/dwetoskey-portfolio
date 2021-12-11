@@ -1,0 +1,262 @@
+/* variables */
+
+:root {
+    --prime-color: #d99e30;
+    --secondary-color: #0e536e;
+    --third-color: rgba(92, 51, 100, 0.67);
+  }
+
+  /* code for entire page */
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* body style */
+  
+  body {
+    color:var( --third-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  
+  /* header/nav bar start */
+  
+  header {
+    padding: 40px 55px;
+    background-color: var( --third-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    background-image: url("https://scontent.fdet1-2.fna.fbcdn.net/v/t1.6435-9/188056808_10159336536553850_233110744429977410_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=zAfjVtFx58sAX_DhprM&_nc_ht=scontent.fdet1-2.fna&oh=63c4d61487778b83fd903b6dded1824e&oe=61D63A25");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--prime-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: var(--prime-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--prime-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  
+  /* header/nav bar end */
+  
+  
+  
+ /* footer styles start */
+
+   footer {
+    background: var(--prime-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: var(--secondary-color);
+  }
+  /* end footer styles */
+
+  
+
+
+  #about-me img {
+    height: 300px;
+    width: 200px;
+  }
+  
+  
+  
+
+  
+  .primary-border {
+    border-color: var(--prime-color);
+  }
+  
+  .secondary-border {
+    border-color: var( --third-color);
+  }
+  /* section styles end */
+  
+  /* intro section */
+
+  .intro {
+    background-color: var(--prime-color);
+  }
+  
+  .intro h2 {
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: left;
+    align-items: center;
+    text-size-adjust: 15px;
+  }
+
+
+  
+  .intro p {
+    flex-wrap: wrap;
+    line-height: 1.7;
+    color: var( --third-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    /* padding: 100px; */
+  }
+
+  
+  /* Workpiece START */
+  #work {
+    width: 100%;
+    background-color: var(--third-color);
+  }
+    
+  
+  .mywork {
+    /* margin: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* color: var(--prime-color); */
+    align-items: center;
+    height: 100%;
+  }
+
+  .workimg {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: left;
+    align-items: center;
+    max-height: 300px;
+  }
+
+  /* .passion {
+    width: 50%;
+  } */
+  
+  /* .projects {
+    background-color: var(--third-color);
+  } */
+
+  /* .mywork {
+    border-color: var(--third-color);
+  } */
+
+  .mywork img {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-width: 10px;
+    border-color: var(--prime-color);
+  }
+  
+  .workpiece {
+    line-height: 1.3;
+  }
+  
+  .workpiece h3 {
+    font-size: 28px;
+    background-color: var(--third-color);
+  }
+  
+  .workpiece h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .workpiece p {
+    font-size: 17px;
+  }
+  /* Workpiece STYLES END */
+
+  
+  /* UTILITIES */
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .flex-row {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+
+  }
+
+  .flex-row h2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: top;
+  }
+  
+  
+ #about-me p {
+      text-align: center;
+      padding: 100px;
+  }
+  
