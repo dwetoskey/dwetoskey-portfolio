@@ -33,7 +33,7 @@
     position: sticky;
     top: 0;
     position: -webkit-sticky;
-    background-image: url("https://scontent.fdet1-2.fna.fbcdn.net/v/t1.6435-9/188056808_10159336536553850_233110744429977410_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=zAfjVtFx58sAX_DhprM&_nc_ht=scontent.fdet1-2.fna&oh=63c4d61487778b83fd903b6dded1824e&oe=61D63A25");
+    background-image: url("../images/bannerimg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -90,24 +90,39 @@
     background: var(--prime-color);
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
   }
+
+  footer p {
+    align-items: center;
+    font-size: 25px;
+    color: var(--secondary-color);
+  }
   
   footer h2 {
+    display: flex;
     color: var(--secondary-color);
-    font-size: 30px;
+    /* font-size: 30px; */
     margin: 0;
+    justify-content: left;
+    width: 100%;
   }
   
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
+
   
   footer a {
     color: var(--secondary-color);
+    font-size: 25px;
+    align-items : right;
+  }
+
+  .contact-me {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 50px;
   }
   /* end footer styles */
 
@@ -157,33 +172,30 @@
     font-size: 20px;
     text-align: center;
     float: right;
-    /* padding: 100px; */
   }
 
   
   /* Workpiece START */
   #work {
-    width: 100%;
+    /* width: 100%; */
     background-color: var(--third-color);
   }
     
   
   .mywork {
-    /* margin: 20px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /* color: var(--prime-color); */
+    /* justify-content: space-around; */
     align-items: center;
     height: 100%;
   }
 
   .workimg {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     float: left;
-    align-items: center;
+    align-items: right;
     max-height: 300px;
   }
 
@@ -193,9 +205,9 @@
     width: 300px;
     height: 150px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
-    border-width: 10px;
+    /* border-width: 50px; */
     border-color: var(--prime-color);
   }
   
