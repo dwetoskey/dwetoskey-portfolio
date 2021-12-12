@@ -1,2 +1,7 @@
 # dwetoskey-portfolio
-![image](https://user-images.githubusercontent.com/93551304/145728668-bcd5d95b-68c2-486f-ad7f-2588c1903cf4.png)
+
+## My portfolio for procuring a web development position.
+###  https://dwetoskey.github.io/dwetoskey-portfolio/
+
+![Capture1](https://user-images.githubusercontent.com/93551304/145728763-3579be9a-0721-41d6-9253-e244c82ba168.PNG)
+![Capture2](https://user-images.githubusercontent.com/93551304/145728764-a98aec76-251e-4991-9e04-33854c6bfa20.PNG)
